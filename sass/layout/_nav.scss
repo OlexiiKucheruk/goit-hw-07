@@ -1,0 +1,37 @@
+.nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.navigation {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+  align-items: center;
+  justify-content: center;
+  margin: var(--margin-none);
+}
+.nav-link.active-page {
+  color: var(--accent-color);
+}
+
+.nav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+}
+
+.nav-link:active {
+  color: var(--accent-color);
+}
+
+.nav-list {
+  margin-right: 50px;
+  position: relative;
+  text-align: center;
+}
+.nav-list:nth-child(3) {
+  margin-right: 0;
+}
