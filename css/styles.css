@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -16,7 +16,7 @@ body {
   color: var(--primary-text-color);
   background-color: var(--white-color);
   letter-spacing: 0.03em;
-}
+} */
 
 .header {
   background-color: var(--white-color);
@@ -26,14 +26,14 @@ body {
 .head {
   display: flex;
 }
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .section {
   padding-top: 94px;
