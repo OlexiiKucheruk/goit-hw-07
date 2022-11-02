@@ -22,9 +22,19 @@
   line-height: 1.34;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
   margin-left: auto;
   margin-right: auto;
   width: 696px;
 }
-
+.list-style {
+  list-style: none;
+  padding-left: 0px;
+}
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+  margin: var(--margin-none);
+}
+.backgrond {
+  background-color: var(--second-body-color);
+}
