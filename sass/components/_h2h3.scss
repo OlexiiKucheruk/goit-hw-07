@@ -1,0 +1,18 @@
+.titles {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-top: var(--margin-none);
+  margin-bottom: 10px;
+}
+.title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  margin: var(--margin-none);
+  margin-bottom: 50px;
+  text-align: center;
+}

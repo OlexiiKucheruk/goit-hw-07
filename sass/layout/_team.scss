@@ -1,0 +1,63 @@
+.titles-team {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  margin: var(--margin-none);
+  margin-bottom: 10px;
+
+  text-align: center;
+}
+.teams-card {
+  display: flex;
+  margin: var(--margin-none);
+}
+.team-contact {
+  margin: var(--margin-none);
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  fill: currentColor;
+  margin-top: 10px;
+}
+.svg-team {
+  fill: currentColor;
+}
+.team-link {
+  text-decoration: none;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--icons-color);
+  border-radius: 50%;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-link:hover,
+.team-link:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.team-elements {
+  background-color: var(--white-color);
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.team-elements:nth-child(4) {
+  margin-right: var(--margin-none);
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.19;
+  margin: var(--margin-none);
+  text-align: center;
+}
+.internal {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

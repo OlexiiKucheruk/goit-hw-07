@@ -1,0 +1,26 @@
+.icon {
+  display: block;
+}
+
+.benefits-icon {
+  display: flex;
+  justify-content: center;
+  background-color: var(--second-body-color);
+  margin-bottom: 30px;
+  height: 120px;
+  align-items: center;
+}
+
+.benefits {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+}
+.benefits:nth-child(4n) {
+  margin-right: 0px;
+}
+
+.first-section {
+  display: flex;
+  margin: var(--margin-none);
+}
+

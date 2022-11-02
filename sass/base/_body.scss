@@ -4,3 +4,16 @@ body {
   background-color: var(--white-color);
   letter-spacing: 0.03em;
 }
+
+.list-style {
+  list-style: none;
+  padding-left: 0px;
+}
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+  margin: var(--margin-none);
+}
+.backgrond {
+  background-color: var(--second-body-color);
+}
