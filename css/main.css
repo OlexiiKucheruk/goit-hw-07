@@ -57,4 +57,13 @@ body {
   --column-gap: 30px;
   --margin-none: 0px;
   --icons-color: #afb1b8;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=main.css.map */
